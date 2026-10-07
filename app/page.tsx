@@ -25,7 +25,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/"
+            href="https://github.com/muneebnawaz"
             target="_blank"
             rel="noreferrer"
             className="rounded-full border border-gray-300 px-6 py-3 text-sm font-medium transition hover:bg-gray-100"
