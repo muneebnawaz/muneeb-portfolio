@@ -12,8 +12,8 @@ export default function Home() {
 
         <p className="mt-8 max-w-2xl text-lg leading-8 text-gray-600">
           I work across machine learning, data analytics, and data engineering,
-          turning complex data into useful predictions, insights, and decision-support
-          systems.
+          turning complex data into useful predictions, insights, and
+          decision-support systems.
         </p>
 
         <div className="mt-10 flex flex-wrap gap-4">
@@ -43,16 +43,16 @@ export default function Home() {
           Selected Work
         </p>
 
-        <h2 className="text-3xl font-semibold tracking-tight">
-          Projects
-        </h2>
+        <h2 className="text-3xl font-semibold tracking-tight">Projects</h2>
 
         <div className="mt-12 grid gap-6 md:grid-cols-2">
           <article className="rounded-2xl border border-gray-200 p-7">
             <p className="text-sm text-gray-500">Machine Learning</p>
+
             <h3 className="mt-2 text-2xl font-semibold">
               Knee MRI Abnormality Detection
             </h3>
+
             <p className="mt-4 leading-7 text-gray-600">
               Multimodal machine learning for detecting knee abnormalities using
               MRI studies and radiology reports.
@@ -61,25 +61,68 @@ export default function Home() {
 
           <article className="rounded-2xl border border-gray-200 p-7">
             <p className="text-sm text-gray-500">Deep Learning</p>
+
             <h3 className="mt-2 text-2xl font-semibold">
               Autism Detection with Domain Adaptation
             </h3>
+
             <p className="mt-4 leading-7 text-gray-600">
-              Deep learning research using heterogeneous domain adaptation across
-              neuroimaging and facial-image data.
+              Deep learning research using heterogeneous domain adaptation
+              across neuroimaging and facial-image data.
             </p>
           </article>
 
           <article className="rounded-2xl border border-gray-200 p-7">
             <p className="text-sm text-gray-500">Data Engineering</p>
+
             <h3 className="mt-2 text-2xl font-semibold">
               GDELT News Intelligence Pipeline
             </h3>
+
             <p className="mt-4 leading-7 text-gray-600">
-              A large-scale news intelligence pipeline for generating company-level
-              distress and risk signals from GDELT data.
+              A large-scale news intelligence pipeline for generating
+              company-level distress and risk signals from GDELT data.
             </p>
           </article>
+        </div>
+      </section>
+
+      <section
+        id="about"
+        className="mx-auto max-w-6xl border-t border-gray-200 px-6 py-24"
+      >
+        <div className="grid gap-12 md:grid-cols-[1fr_2fr]">
+          <div>
+            <p className="text-sm font-medium uppercase tracking-[0.2em] text-gray-500">
+              About
+            </p>
+
+            <h2 className="mt-3 text-3xl font-semibold tracking-tight">
+              A little about me
+            </h2>
+          </div>
+
+          <div className="max-w-3xl space-y-6 text-lg leading-8 text-gray-600">
+            <p>
+              I&apos;m a data scientist with a background in engineering and a
+              strong interest in machine learning, artificial intelligence, and
+              data-driven problem solving.
+            </p>
+
+            <p>
+              My path into data science started through computational
+              engineering, where I became increasingly interested in
+              programming, algorithms, and using data to solve complex problems.
+              I later completed a Master of Data Science, with research focused
+              on deep learning and heterogeneous domain adaptation.
+            </p>
+
+            <p>
+              Today, I work across machine learning, data analytics, and data
+              engineering. I enjoy building practical systems that turn large,
+              complex datasets into useful predictions, signals, and insights.
+            </p>
+          </div>
         </div>
       </section>
     </main>
